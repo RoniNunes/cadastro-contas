@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/ronny',{
+mongoose.connect('mongodb://localhost/cadastro-contas',{
 }).then(()=>{
         console.log("Conexão foi satisfatoria Puerto 8092");
     }).catch((err)=>{
